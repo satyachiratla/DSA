@@ -1,13 +1,13 @@
 function rightAngle(n) {
-    var string = "";
+    let string = "";
 
-    for (var i = 1; i <= n; i++) {
-        for (var j = 0; j < i; j++) {
-            string = string + "*";
+    for (let i = 1; i <= n; i++) {
+        for (j = 0; j < i; j++) {
+            string = string + "*"
         }
         string = string + "\n";
     }
     return string;
 }
 
-console.log(rightAngle(7));
+console.log(rightAngle(5));
